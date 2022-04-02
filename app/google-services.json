@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "200666560598",
+    "project_id": "my-appointments-d6f74",
+    "storage_bucket": "my-appointments-d6f74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200666560598:android:c3a4dd98c56502c716e3f7",
+        "android_client_info": {
+          "package_name": "club.laravels.myappointments"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200666560598-161b8d53drk3265q65ppo8m8u2jd4fm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtlI3N0JvGqI9ymXLSBdsdsOsznD8m8_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200666560598-161b8d53drk3265q65ppo8m8u2jd4fm8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

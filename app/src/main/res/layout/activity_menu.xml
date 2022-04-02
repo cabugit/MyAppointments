@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".ui.MenuActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center_horizontal"
+        android:text="@string/label_welcome"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white" />
+
+    <Button
+        style="@style/MenuButton"
+        android:id="@+id/btnCreateAppointment"
+        android:drawableStart="@drawable/ic_add_circle"
+        android:backgroundTint="@color/colorBlue"
+        android:text="@string/btn_create_appointment" />
+
+    <Button
+        style="@style/MenuButton"
+        android:id="@+id/btnMyAppointments"
+        android:backgroundTint="@color/colorBlue"
+        android:drawableStart="@drawable/ic_calendar"
+        android:text="@string/btn_my_appointments" />
+
+    <Button
+        style="@style/MenuButton"
+        android:id="@+id/btnLogout"
+        android:backgroundTint="@color/colorBlue"
+        android:drawableStart="@drawable/ic_power_off"
+        android:text="@string/btn_logout" />
+</LinearLayout>

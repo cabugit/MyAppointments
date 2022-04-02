@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">MediCitas</string>
+    <string name="label_login">Inicio de sesión</string>
+    <string name="label_register">Registro</string>
+    <string name="label_email">Correo</string>
+    <string name="label_password">Contraseña</string>
+    <string name="label_password_confirmation">Confirmar contraseña</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="label_go_to_register">¿Aún no te has registrado?</string>
+    <string name="label_name">Nombre completo</string>
+    <string name="btn_register">Confirmar registro</string>
+    <string name="label_go_to_login">¿Ya tienes una cuenta?</string>
+    <string name="please_fill_your_register_data">Favor de llenar tus datos de registro</string>
+    <string name="please_login_with_your_credentials">Favor de conectarse usando sus credenciales</string>
+    <string name="btn_my_appointments">Mis citas</string>
+    <string name="btn_logout">Cerrar sesión</string>
+    <string name="label_welcome">Bienvenido</string>
+    <string name="btn_create_appointment">Reservar cita</string>
+    <string name="label_create_appointment">Reservar cita</string>
+    <string name="labelDescription">Descripción</string>
+    <string name="labelSpecialty">Especialidad</string>
+    <string name="labelType">Tipo de cita</string>
+    <string name="radioConsult">Consulta</string>
+    <string name="radioTest">Examen</string>
+    <string name="radioSurgery">Operación</string>
+    <string name="btn_next">Siguiente</string>
+    <string name="labelDoctor">Médico</string>
+    <string name="labelSheduledDate">Fecha</string>
+    <string name="labelSheduledTime">Hora</string>
+    <string name="btn_confirm">Confirmar</string>
+    <string name="create_appointment_success">Cita registrada</string>
+    <string name="date_format">%1$d-%2$s-%3$s</string>
+    <string name="item_appointment_id">Cita médica #%1$d</string>
+    <string name="item_appointment_date">Atención el día %1$s</string>
+    <string name="item_appointment_time">A las %1$s</string>
+    <string name="Label_my_appointments">Mis citas médicas</string>
+    <string name="press_back_again">Presione una vez más para salir</string>
+    <string name="dialog_create_appointment_exit_title">¿Está seguro(a) que deseas salir?</string>
+    <string name="dialog_create_appointment_exit_message">Si abandonas el registro, los datos que habias ingresado se perderán.</string>
+    <string name="dialog_create_appointment_exit_positive_button">Sí, salir</string>
+    <string name="dialog_create_appointment_exit_negative_button">Continuar registro</string>
+    <string name="validate_appointment_description">La descripción es demaciado corta.</string>
+    <string name="label_confirm_appointment_data">Datos de la cita</string>
+    <string name="validate_appointment_date">Es necesario seleccionar una fecha</string>
+    <string name="validate_appointment_time">Es necesario definir una hora para la cita.</string>
+    <string name="error_loading_specialties">Falló al obtener las especialidades</string>
+    <string name="error_loading_doctors">Falló al obtener los Médicos</string>
+    <string name="error_loading_hours">Falló al obtener las horas disponibles</string>
+    <string name="label_select_doctor_and_date">Seleccione un médico y una fecha para ver las horas disponibles</string>
+    <string name="label_not_available_hours">Lo sentimos! No se encontraron horas disponibles para el médico y fecha seleccionados.</string>
+    <string name="error_login_response">Se obtuvo una respuesta inesperada del servidor.</string>
+    <string name="error_invalid_credentials">Las credenciales son incorrectas.</string>
+    <string name="error_empty_credentials">Favor de ingresar un correo y una contraseña.</string>
+    <string name="welcome_name">Bienvenido %1$s.</string>
+    <string name="item_appointment_created_at">Esta cita se registró el día %1$s con la siguiente descripción:</string>
+    <string name="create_appointment_error">Ocurrió un errror inesperado registrando la cita médica.</string>
+    <string name="error_registe_empty_fields">Favor de completar Todos los campos.</string>
+    <string name="error_register_passwords_do_not_match">Las contraseñas no coinciden.</string>
+    <string name="error_register_validation">Ocurrió un error en el registro.</string>
+    <string name="error_register_password_less_8_characters">La contraseña debe tener al menos 8 caracteres.</string>
+
+    <string name="fcm_message">FCM Message</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="msg_token_fmt" translatable="false">FCM registration Token: %s</string>
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        FCM registration token to logcat.</string>
+    <string name="subscribe_to_weather">Subscribe To Weather</string>
+    <string name="log_token">Log Token</string>
+</resources>
