@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="16dp"
+    android:id="@+id/menuActivityLinearLayout"
     tools:context=".ui.MenuActivity">
 
     <TextView
@@ -19,8 +20,15 @@
 
     <Button
         style="@style/MenuButton"
+        android:id="@+id/btnProfile"
+        android:drawableLeft="@drawable/ic_profile"
+        android:backgroundTint="@color/colorBlue"
+        android:text="@string/btn_edit_profile" />
+
+    <Button
+        style="@style/MenuButton"
         android:id="@+id/btnCreateAppointment"
-        android:drawableStart="@drawable/ic_add_circle"
+        android:drawableLeft="@drawable/ic_add_circle"
         android:backgroundTint="@color/colorBlue"
         android:text="@string/btn_create_appointment" />
 
@@ -28,13 +36,13 @@
         style="@style/MenuButton"
         android:id="@+id/btnMyAppointments"
         android:backgroundTint="@color/colorBlue"
-        android:drawableStart="@drawable/ic_calendar"
+        android:drawableLeft="@drawable/ic_calendar"
         android:text="@string/btn_my_appointments" />
 
     <Button
         style="@style/MenuButton"
         android:id="@+id/btnLogout"
         android:backgroundTint="@color/colorBlue"
-        android:drawableStart="@drawable/ic_power_off"
+        android:drawableLeft="@drawable/ic_power_off"
         android:text="@string/btn_logout" />
 </LinearLayout>

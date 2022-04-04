@@ -11,10 +11,12 @@
         <entry key="..\:/Users/tcsadmin/AndroidStudioProjects/MyAppointments/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.1" />
         <entry key="..\:/Users/tcsadmin/AndroidStudioProjects/MyAppointments/app/src/main/res/drawable/ic_calendar.xml" value="0.1345" />
         <entry key="..\:/Users/tcsadmin/AndroidStudioProjects/MyAppointments/app/src/main/res/drawable/ic_check.xml" value="0.1345" />
+        <entry key="..\:/Users/tcsadmin/AndroidStudioProjects/MyAppointments/app/src/main/res/drawable/ic_profile.xml" value="0.16" />
         <entry key="..\:/Users/tcsadmin/AndroidStudioProjects/MyAppointments/app/src/main/res/layout/activity_appointments.xml" value="0.25" />
         <entry key="..\:/Users/tcsadmin/AndroidStudioProjects/MyAppointments/app/src/main/res/layout/activity_create_appointment.xml" value="0.22" />
         <entry key="..\:/Users/tcsadmin/AndroidStudioProjects/MyAppointments/app/src/main/res/layout/activity_main.xml" value="0.29118773946360155" />
-        <entry key="..\:/Users/tcsadmin/AndroidStudioProjects/MyAppointments/app/src/main/res/layout/activity_menu.xml" value="0.1" />
+        <entry key="..\:/Users/tcsadmin/AndroidStudioProjects/MyAppointments/app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="..\:/Users/tcsadmin/AndroidStudioProjects/MyAppointments/app/src/main/res/layout/activity_profile.xml" value="0.22" />
         <entry key="..\:/Users/tcsadmin/AndroidStudioProjects/MyAppointments/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/tcsadmin/AndroidStudioProjects/MyAppointments/app/src/main/res/layout/card_view_step_one.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/tcsadmin/AndroidStudioProjects/MyAppointments/app/src/main/res/layout/card_view_step_three.xml" value="0.25" />

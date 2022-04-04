@@ -29,7 +29,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:inputType="text" />
+            android:inputType="text"
+            android:autofillHints=""
+            tools:ignore="LabelFor" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -49,7 +51,6 @@
             android:text="@string/labelType" />
 
         <RadioGroup
-            xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/radioGroupType"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

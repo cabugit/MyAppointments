@@ -70,4 +70,13 @@
         FCM registration token to logcat.</string>
     <string name="subscribe_to_weather">Subscribe To Weather</string>
     <string name="log_token">Log Token</string>
+    <string name="btn_edit_profile">EDITAR PERFIL</string>
+    <string name="label_edit_profile">Editar datos básicos</string>
+    <string name="label_Phone">Número de teléfono</string>
+    <string name="label_address">Dirección</string>
+    <string name="btn_save_profile">Guardar cambios</string>
+    <string name="profile_success_message">Los cambios se han guardado correctamente.</string>
+    <string name="error_profile_name">El nombre ingresado es demasiado corto.</string>
+    <string name="error_profile_phone">El número telefónico de 10 dígitos es un dato requerido.</string>
+    <string name="you_need_a_phone">Es necesario asociar primero un teléfono de 10 dígitos a tu cuenta.</string>
 </resources>

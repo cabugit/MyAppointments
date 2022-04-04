@@ -1,9 +1,6 @@
 package club.laravels.myappointments.io
 
-import club.laravels.myappointments.model.Appointment
-import club.laravels.myappointments.model.Doctor
-import club.laravels.myappointments.model.Schedule
-import club.laravels.myappointments.model.Specialty
+import club.laravels.myappointments.model.*
 import hu.akarnokd.rxjava3.retrofit.RxJava3CallAdapterFactory
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -13,6 +10,20 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.*
 
 interface ApiService {
+
+    @GET("user")
+    @Headers("Accept: application/json")
+    fun getUser(@Header("Authorization") authHeader: String)
+        : Call<User>
+
+    @POST("user")
+    @Headers("Accept: application/json")
+    fun postUser(
+        @Header("Authorization") authHeader: String,
+        @Query("name") name : String,
+        @Query("phone") phone : String,
+        @Query("address") address : String
+    ) : Call<Void>
 
     @GET("specialties")
     fun getSpecialties() : Call<ArrayList<Specialty>>

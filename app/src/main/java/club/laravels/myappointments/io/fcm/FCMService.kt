@@ -61,11 +61,7 @@ class FCMService : FirebaseMessagingService() {
                 sendNotification(remoteMessage.notification?.title.toString(), body)
             }
             Log.d(TAG, "Message Notification Body: $body")
-
-
         }
-
-        // sendNotification()
     }
     // [END receive_message]
 
