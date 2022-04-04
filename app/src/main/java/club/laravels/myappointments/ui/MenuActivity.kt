@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
-import android.widget.LinearLayout
 import club.laravels.myappointments.util.PreferenceHelper
 import club.laravels.myappointments.util.PreferenceHelper.set
 import club.laravels.myappointments.util.PreferenceHelper.get
@@ -14,7 +13,6 @@ import club.laravels.myappointments.io.ApiService
 import club.laravels.myappointments.model.User
 import club.laravels.myappointments.util.toast
 import com.google.android.gms.tasks.OnCompleteListener
-import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.messaging.ktx.messaging
 import retrofit2.Call
@@ -67,17 +65,14 @@ class MenuActivity : AppCompatActivity() {
     }
 
     private fun createAppointment() {
-        val menuActivityLinearLayout = findViewById<LinearLayout>(R.id.menuActivityLinearLayout)
         val call = apiService.getUser(authHeader)
         call.enqueue(object : Callback<User> {
             override fun onResponse(call: Call<User>, response: Response<User>) {
                 if (response.isSuccessful) {
                     val user = response.body()
                     if (user != null) {
-                        val phoneLength = user?.phone?.length ?: 0
+                        val phoneLength = user.phone.length
                         if (phoneLength != 10) {
-                            /*Snackbar.make(menuActivityLinearLayout,
-                                R.string.you_need_a_phone, Snackbar.LENGTH_INDEFINITE).show()*/
                             toast(getString(R.string.you_need_a_phone))
                             editProfile()
                             return
